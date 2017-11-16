@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68033BA41FBDBB81003E0E05 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68033BA31FBDBB81003E0E05 /* Category.swift */; };
+		68033BA71FBDBCBE003E0E05 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68033BA61FBDBCBE003E0E05 /* DateService.swift */; };
 		68FBD32B1FBD36A1001B82CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBD32A1FBD36A1001B82CB /* AppDelegate.swift */; };
 		68FBD32D1FBD36A1001B82CB /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FBD32C1FBD36A1001B82CB /* CategoriesVC.swift */; };
 		68FBD3301FBD36A1001B82CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FBD32E1FBD36A1001B82CB /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68033BA31FBDBB81003E0E05 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		68033BA61FBDBCBE003E0E05 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 		68FBD3271FBD36A1001B82CB /* Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FBD32A1FBD36A1001B82CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68FBD32C1FBD36A1001B82CB /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68033BA51FBDBCAB003E0E05 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				68033BA61FBDBCBE003E0E05 /* DateService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		68FBD31E1FBD36A1001B82CB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		68FBD3291FBD36A1001B82CB /* Swag */ = {
 			isa = PBXGroup;
 			children = (
+				68033BA51FBDBCAB003E0E05 /* Services */,
 				68FBD33E1FBD39A3001B82CB /* View */,
 				68FBD33D1FBD3998001B82CB /* Model */,
 				68FBD33C1FBD3983001B82CB /* Controller */,
@@ -79,6 +92,7 @@
 		68FBD33D1FBD3998001B82CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				68033BA31FBDBB81003E0E05 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +180,8 @@
 				68FBD32D1FBD36A1001B82CB /* CategoriesVC.swift in Sources */,
 				68FBD32B1FBD36A1001B82CB /* AppDelegate.swift in Sources */,
 				68FBD3401FBD39D6001B82CB /* CategoryCell.swift in Sources */,
+				68033BA41FBDBB81003E0E05 /* Category.swift in Sources */,
+				68033BA71FBDBCBE003E0E05 /* DateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
