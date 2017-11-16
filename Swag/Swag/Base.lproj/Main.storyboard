@@ -26,7 +26,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOP BY CATEGORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msx-Y0-89A">
-                                <rect key="frame" x="16" y="30" width="175" height="25"/>
+                                <rect key="frame" x="16" y="30" width="339" height="25"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -76,6 +76,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mKf-vf-zWg" firstAttribute="top" secondItem="Msx-Y0-89A" secondAttribute="bottom" constant="10" id="1xE-3d-b4r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Msx-Y0-89A" secondAttribute="trailing" constant="20" id="2eD-RD-80i"/>
                             <constraint firstItem="Msx-Y0-89A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="58U-b4-PeW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mKf-vf-zWg" secondAttribute="trailing" id="Een-bq-JSc"/>
                             <constraint firstItem="Msx-Y0-89A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="ZxZ-HV-E4P"/>
@@ -103,7 +104,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRODUCTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Djc-4S-QiG">
-                                <rect key="frame" x="16" y="30" width="95" height="25"/>
+                                <rect key="frame" x="16" y="30" width="339" height="25"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -180,6 +181,7 @@
                             <constraint firstItem="Djc-4S-QiG" firstAttribute="leading" secondItem="hni-HA-4EL" secondAttribute="leading" constant="16" id="MI1-8c-R3n"/>
                             <constraint firstItem="Djc-4S-QiG" firstAttribute="top" secondItem="hni-HA-4EL" secondAttribute="top" constant="30" id="SZA-g7-LKu"/>
                             <constraint firstItem="1Dp-Df-OfP" firstAttribute="leading" secondItem="hni-HA-4EL" secondAttribute="leading" id="Sfi-fv-fLh"/>
+                            <constraint firstItem="hni-HA-4EL" firstAttribute="trailing" secondItem="Djc-4S-QiG" secondAttribute="trailing" constant="20" id="TmC-iy-GkI"/>
                             <constraint firstItem="hni-HA-4EL" firstAttribute="bottom" secondItem="1Dp-Df-OfP" secondAttribute="bottom" id="cl9-Lc-roJ"/>
                             <constraint firstItem="1Dp-Df-OfP" firstAttribute="top" secondItem="Djc-4S-QiG" secondAttribute="bottom" constant="10" id="gmf-Yj-ZCO"/>
                             <constraint firstItem="hni-HA-4EL" firstAttribute="trailing" secondItem="1Dp-Df-OfP" secondAttribute="trailing" id="sSL-Mt-xkZ"/>
