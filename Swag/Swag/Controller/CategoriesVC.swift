@@ -14,7 +14,6 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        print(DataService.instance.getCategories())
     }
 
     
