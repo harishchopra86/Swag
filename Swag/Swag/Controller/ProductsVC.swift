@@ -22,6 +22,8 @@ class ProductsVC: UIViewController, UICollectionViewDataSource, UICollectionView
 
     func initialiseProducts(category:Category)  {
         products = DataService.instance.getProducts(forCategoryTitle: category.title)
+        self.title = category.title
+
     }
     
     
