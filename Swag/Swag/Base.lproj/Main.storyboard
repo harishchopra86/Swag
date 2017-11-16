@@ -87,17 +87,17 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="nbq-b4-kGg"/>
                     <connections>
                         <outlet property="categoryTable" destination="mKf-vf-zWg" id="NGV-Tl-S4d"/>
-                        <segue destination="4EW-xg-7h2" kind="show" id="MWe-us-bZZ"/>
+                        <segue destination="4EW-xg-7h2" kind="show" identifier="ProductsVC" id="MWe-us-bZZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="477.60000000000002" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="gev-nY-Ihb">
             <objects>
-                <viewController id="4EW-xg-7h2" sceneMemberID="viewController">
+                <viewController id="4EW-xg-7h2" customClass="ProductsVC" customModule="Swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JIy-pO-B9B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,6 +169,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="4EW-xg-7h2" id="b0a-Jg-uAF"/>
+                                    <outlet property="delegate" destination="4EW-xg-7h2" id="6cW-3w-0Ct"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -182,6 +186,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hni-HA-4EL"/>
                     </view>
+                    <connections>
+                        <outlet property="productCollection" destination="1Dp-Df-OfP" id="ElO-hP-K9W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qMM-oi-Jpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
